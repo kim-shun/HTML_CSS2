@@ -4,11 +4,35 @@
 }
 
 .chat-side {
-  width: 300px;
   background-color: #333333;
+  width: 300px;
+}
+
+.side-header{
+  background-color: #595959;
+  height: 100px;
+}
+
+.groups {
+  height: calc(100vh -100px);
 }
 
 .chat-main {
   width: calc(100% - 300px);
   background-color: #1a1d21;
+}
+
+.main-header{
+  height: 100px;
+  background-color: #3f3f3f;
+  border-bottom: 3px solid #595959;
+}
+
+.messages{
+  height: calc(100vh - 100px - 90px);
+}
+
+.form{
+  background-color: #595959;
+  height: 90px;
 }
