@@ -16,7 +16,6 @@
 }
 
 .side-box{
-  background-color: #ffffff;
   height: 20px;
   width: 260px;
   margin: 0 20px;
@@ -26,7 +25,7 @@
 }
 
 .user-name{
-  color: #333333;
+  color: #eeeeee;
 }
 
 .menu{
@@ -39,7 +38,7 @@
 
 a{
   text-decoration: none;
-  color: #333333;
+  color: #eeeeee;
 }
 
 .groups {
