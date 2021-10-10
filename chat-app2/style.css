@@ -54,7 +54,31 @@ a{
   height: 100px;
   background-color: #3f3f3f;
   border-bottom: 3px solid #595959;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
 }
+.current-group{
+  color: #eeeeee;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.main-header a{
+  border: 1px solid;
+  padding: 15px 20px;
+}
+
+.member-list{
+  display: flex;
+  color: #eeeeee;
+  font-size: 12px;
+}
+
+.member{
+  margin-left: 5px;
+}
+
 
 .messages{
   height: calc(100vh - 100px - 90px);
