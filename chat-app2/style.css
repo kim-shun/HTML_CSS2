@@ -64,10 +64,7 @@ a{
   font-size: 20px;
   margin-bottom: 15px;
 }
-.main-header a{
-  border: 1px solid;
-  padding: 15px 20px;
-}
+
 
 .member-list{
   display: flex;
@@ -77,6 +74,12 @@ a{
 
 .member{
   margin-left: 5px;
+}
+
+.edit-btn {
+  border: 1px solid #eeeeee;
+  padding: 15px 20px;
+  font-size: 16px;
 }
 
 
