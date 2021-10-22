@@ -87,6 +87,15 @@ a{
   height: calc(100vh - 100px - 90px);
 }
 
+.new-message {
+  display: flex;
+  margin: 20px 40px;
+}
+
+.input-text {
+  width: 100%;
+}
+
 .form{
   background-color: #595959;
   height: 90px;
