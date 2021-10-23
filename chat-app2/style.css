@@ -87,16 +87,34 @@ a{
   height: calc(100vh - 100px - 90px);
 }
 
-.new-message {
-  display: flex;
-  margin: 20px 40px;
-}
 
-.input-text {
-  width: 100%;
-}
 
 .form{
   background-color: #595959;
   height: 90px;
+  padding: 20px 40px;
+}
+
+.new-message {
+  display: flex;
+
+}
+
+.input-text{
+  width: 100%;
+  height: 50px;
+  padding:0 15px;
+  font-size: 16px;
+  color: #434a54;
+  border-style: none;
+}
+
+.submit-btn{
+  width: 100px;
+  height: 50px;
+  padding: 0 30px;
+  margin-left: 15px;
+  background-color: #eeeeee;
+  font-size: 15px;
+  color: #1a1d21;
 }
